@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/qss/style1.qss</file>
+        <file>res/qss/style2.qss</file>
+        <file>res/qss/style3.qss</file>
+        <file>res/qss/style4.qss</file>
+        <file>res/qss/style5.qss</file>
+        <file>res/qss/style6.qss</file>
+        <file>res/qss/style7.qss</file>
+        <file>res/qss/style8.qss</file>
+        <file>res/qss/style9.qss</file>
+    </qresource>
+</RCC>

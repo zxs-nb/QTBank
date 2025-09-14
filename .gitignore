@@ -1,0 +1,38 @@
+# --- Qt 编译生成文件和目录 ---
+build-*/      # 所有以 build- 开头的目录（Qt Creator 默认构建目录）
+build/        # 常见的构建目录
+bin/          # 二进制输出目录
+*.pro.user    # Qt Creator 用户配置文件（包含个人IDE设置）
+*.pro.user.*  # Qt Creator 用户配置备份文件
+*.autosave    # 自动保存文件
+
+# --- 编译生成的目标文件 ---
+*.o           # 对象文件
+*.obj         # 对象文件
+*.exe         # 可执行文件（Windows）
+*.dll         # 动态链接库（Windows）
+*.so          # 共享库（Linux）
+*.a           # 静态库
+*.lib         # 库文件（Windows）
+*.dylib       # 动态库（macOS）
+
+# --- 调试文件 ---
+*.debug       # 调试版本
+*.release     # 发布版本
+core          # 核心转储文件
+core.*        # 核心转储文件
+
+# --- Qt 相关 ---
+Makefile      # 生成的Makefile
+Makefile.*    # 生成的Makefile变体
+moc_*.cpp     # moc生成的文件
+qrc_*.cpp     # 资源编译器生成的文件
+ui_*.h        # UI编译器生成的文件
+*.qrc.staged  # 临时资源文件
+
+# --- 系统文件 ---
+.DS_Store     # macOS 系统文件
+Thumbs.db     # Windows 缩略图缓存
+*.swp         # Vim 交换文件
+*.swo         # Vim 交换文件
+*~            # 备份文件
